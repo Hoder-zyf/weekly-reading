@@ -109,3 +109,47 @@ python reranker.py --stage_1_k 10 --stage_2_k 5
 bash launch/zero2.sh  # 或 zero3.sh
 ```
 
+## 2. BGE-VL-SCREENSHOT https://huggingface.co/BAAI/BGE-VL-Screenshot
+在这项工作中，我们正式定义了一种新兴的信息检索范式，称为可视化信息检索（VisIR），其中多模态信息（如文本、图像、表格和图表）通过一个统一的视觉格式——截图——联合表示，用于各种检索应用。
+<img src="https://github.com/user-attachments/assets/4204f114-bbc3-4e8b-b068-92f3d3172f5c" width="500" />
+
+## 3. LLamaFactory https://github.com/hiyouga/LLaMA-Factory?tab=readme-ov-file#supported-models
+> 零代码训练模型，有点意思：https://aws.amazon.com/cn/blogs/china/building-llm-model-hub-based-on-llamafactory-and-easyr1/
+<img src="https://github.com/user-attachments/assets/9fc470a7-bd6b-4a28-bbc6-f068ae74d921" width="300">
+<img src="https://github.com/user-attachments/assets/41c92eb9-65e7-4024-89b9-888d7c029bc8" width="300">
+<img src="https://github.com/user-attachments/assets/1883ecbb-edfc-4801-b151-4d4df0674071" width="300">
+<img src="https://github.com/user-attachments/assets/a42a6d93-9759-48c1-96e7-4cefd2914f71" width="300">
+
+## 4.SwanLab 类似wandb https://docs.swanlab.cn/guide_cloud/general/what-is-swanlab.html
+
+## 5. Dify
+**Five Key Elements of Agentic Al**
+
+<img src="https://github.com/user-attachments/assets/7fccd608-954d-44df-873e-28207cdc216d" width="300">
+<img src="https://github.com/user-attachments/assets/08ad19b9-9348-4a70-9e4d-b2184632ca77" width="300">
+
+- [ ] Model Providers（以plugin的形式）
+- [x] Workflow
+- [ ] RAG (Pipeline)
+- [ ] Tools & Marketplace
+- [x] Tracing
+
+## 6. 无限光年
+<img src="https://github.com/user-attachments/assets/7d0b5ba6-a774-4e65-8d61-d40150518ec9" width="300">
+<img src="https://github.com/user-attachments/assets/ecf7b148-9a6b-4bf8-bba4-978a8f31246f" width="300">
+<img src="https://github.com/user-attachments/assets/98a1a54f-b30e-48da-a6b3-dc0cd70150be" width="300">
+<img src="https://github.com/user-attachments/assets/c5292dfb-fb53-4173-8129-e59701db9887" width="300">
+
+几个重点总结一下：
+1. 高质量训练数据= 流程化query（主题提取+关键词提取：生成种子问题-问题复杂化-问题压缩） + 上下文query(大模型标注链路）
+2. 怎么把大模型改造成向量模型： 选择base模型+剥离lm head只使用encoder; 使用双向注意力机制+ 输入末尾添加[eos] + mean pooling
+
+## 7. 老黄 AI编程白皮书：https://superhuang.feishu.cn/wiki/CBBPwvgEuicVhFkx0s7cPmhpn4e
+> MCP很好，很火，但是门槛比较高，未来可期
+
+## 8.jina 
+
+## 9. indexttsv2.0 bilibili  (for fun)
+
+
+
